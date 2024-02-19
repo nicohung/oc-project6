@@ -12,7 +12,7 @@ const sauceRoutes = require('./routes/sauce');
 // Create an express application
 const app = express();
 
-mongoose.connect('mongodb+srv://nickohg:nOCTotpvTxifnlcs@cluster0.pmci8wo.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://username:/?retryWrites=true&w=majority')
     .then(() => {
         console.log('sucessfully connected to mongodb atlas');
     })
